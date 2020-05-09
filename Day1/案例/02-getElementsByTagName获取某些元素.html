@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li>bullet journal~1</li>
+        <li>bullet journal~2</li>
+        <li>bullet journal~3</li>
+        <li>bullet journal~4</li>
+        <li>bullet journal~5</li>
+    </ul>
+    <ul id="nav">
+        <li>bullet</li>
+        <li>bullet</li>
+        <li>bullet</li>
+        <li>bullet</li>
+        <li>bullet</li>
+    </ul>
+    <script>
+        // 1. 返回的是获取过来元素对象的集合 以伪数组的形式存储的
+        var lis = document.getElementsByTagName('li')
+        console.log(lis);
+        console.log(lis[0]);
+        // 2. 想要依次打印里面的元素对象我们可以采取遍历的方式
+        for (var i = 0; i < lis.length; i++) {
+            console.log(lis[i]);
+        }
+        // 3. element.getElementsByTagName() 可以得到这个元素里面的某些标签
+        var nav = document.getElementById('nav'); // 获得 nav 元素
+        var navLis = nav.getElementsByTagName('li');
+        console.log(navLis);
+
+
+    </script>
+</body>
+
+</html>
