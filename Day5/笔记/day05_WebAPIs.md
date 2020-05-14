@@ -322,7 +322,7 @@ scroll 翻译过来就是滚动的，我们使用 scroll 系列的相关属性�
 
 需要注意的是，页面被卷去的头部，有兼容性问题，因此被卷去的头部通常有如下几种写法：
 
-1. 声明了 DTD，使用 document.documentElement.scrollTop
+1. 声明了 DTD(<!DOCTYPE html>)，使用 document.documentElement.scrollTop
 2. 未声明 DTD，使用  document.body.scrollTop
 3. 新方法 window.pageYOffset和 window.pageXOffset，IE9 开始支持
 
