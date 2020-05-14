@@ -157,9 +157,9 @@ this.innerHTML = 'x坐标是' + x + ' y坐标是' + y;
 9. 如果大于遮挡层最大的移动距离，就把坐标设置为最大的移动距离
 10. 遮挡层的最大移动距离：小图片盒子宽度 减去 遮挡层盒子宽度
 
-![1551881487(1)](images\1551881487(1).png)
+![IMG_1391](/Users/jane/WebAPI/Day5/笔记/images/IMG_1391.PNG)
 
-
+![IMG_1392](/Users/jane/WebAPI/Day5/笔记/images/IMG_1392.PNG)
 
 ![1551881563(1)](images\1551881563(1).jpg)
 
