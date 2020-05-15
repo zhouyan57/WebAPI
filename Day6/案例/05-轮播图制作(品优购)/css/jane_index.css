@@ -7,9 +7,10 @@
 }
 .focus {
     position: relative;
-    width: 720px;
+    width: 721px;
     height: 455px;
     background-color: purple;
+    overflow: hidden;
 }
 .focus ul {
     position: absolute;
